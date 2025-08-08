@@ -30,10 +30,17 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: Mail,
-      title: 'Email',
+      title: 'Email - Luiz Gustavo',
       value: 'gustavo.nscto@gmail.com',
       href: 'mailto:gustavo.nscto@gmail.com',
       description: 'Envie um email diretamente'
+    },
+    {
+      icon: Mail,
+      title: 'Email - Gustavo Rodrigues',
+      value: 'rgussttavo@gmail.com',
+      href: 'mailto:rgussttavo@gmail.com',
+      description: 'Contato da equipe'
     },
     {
       icon: Linkedin,

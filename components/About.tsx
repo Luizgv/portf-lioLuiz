@@ -37,7 +37,7 @@ const About = () => {
     {
       icon: Code,
       title: 'Experiência Prática',
-      description: 'Desenvolvimento de projetos reais como Seiva e site do Olima, aplicando conhecimentos técnicos.',
+      description: 'Desenvolvimento de projetos reais como Seiva e site do Olima em equipe (Luiz Gustavo e Gustavo Rodrigues), aplicando conhecimentos técnicos.',
       period: '2023 - Presente'
     },
     {
@@ -87,8 +87,8 @@ const About = () => {
               <p>
                 Com foco especial em desenvolvimento front-end, tenho me dedicado a criar experiências 
                 digitais que não apenas funcionam bem, mas também encantam os usuários. Minha experiência 
-                prática inclui projetos como o Seiva e o site do Olima, onde pude aplicar conhecimentos 
-                técnicos em situações reais.
+                prática inclui projetos como o Seiva e o site do Olima, desenvolvidos em equipe com meu 
+                parceiro Gustavo Rodrigues, onde pudemos aplicar conhecimentos técnicos em situações reais.
               </p>
               
               <p>

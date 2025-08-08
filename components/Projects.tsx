@@ -10,12 +10,12 @@ const Projects = () => {
       id: 'seiva',
       title: 'Seiva',
       subtitle: 'Plataforma Digital da Igreja',
-      description: 'Site oficial da igreja Seiva, projetado para comunicar missão, eventos e conteúdos à comunidade. Integrado com APIs do Google e YouTube para exibir transmissões ao vivo, vídeos e agenda atualizada automaticamente.',
-      longDescription: 'O projeto Seiva é a plataforma digital oficial da igreja, desenvolvida para ampliar o alcance das ações no ambiente digital. O site apresenta informações institucionais, ministérios e está integrado com APIs do Google e YouTube, permitindo exibir transmissões ao vivo, vídeos recentes e agenda de eventos com atualizações automáticas. Essa integração torna o site dinâmico e sempre atualizado.',
+      description: 'Site oficial da igreja Seiva, desenvolvido em dupla para comunicar missão, eventos e conteúdos à comunidade. Integrado com APIs do Google e YouTube para exibir transmissões ao vivo, vídeos e agenda atualizada automaticamente.',
+      longDescription: 'O projeto Seiva foi desenvolvido em dupla (Luiz Gustavo e Gustavo Rodrigues) como plataforma digital oficial da igreja, para ampliar o alcance das ações no ambiente digital. O site apresenta informações institucionais, ministérios e está integrado com APIs do Google e YouTube, permitindo exibir transmissões ao vivo, vídeos recentes e agenda de eventos com atualizações automáticas.',
       category: 'Site Institucional',
       timeline: '1 mês',
-      team: '3 desenvolvedores',
-      status: 'Concluído',
+      team: '2 desenvolvedores',
+      status: 'Domínio em Negociação',
       features: [
         'Integração com APIs Google e YouTube',
         'Transmissões ao vivo automatizadas',
@@ -37,12 +37,12 @@ const Projects = () => {
       id: 'olima',
       title: 'Site do OLima',
       subtitle: 'Landing Page Institucional',
-      description: 'Website institucional moderno e otimizado para conversão, desenvolvido com foco em performance e experiência do usuário. Implementação de práticas avançadas de SEO e design responsivo.',
-      longDescription: 'O site do OLima foi desenvolvido com foco total na experiência do usuário e otimização para conversões. Utilizei técnicas avançadas de desenvolvimento front-end para criar uma landing page que não apenas impressiona visualmente, mas também entrega resultados mensuráveis.',
+      description: 'Website institucional moderno e otimizado para conversão, desenvolvido em dupla com foco em performance e experiência do usuário. Implementação de práticas avançadas de SEO e design responsivo.',
+      longDescription: 'O site do OLima foi desenvolvido em dupla (Luiz Gustavo e Gustavo Rodrigues) com foco total na experiência do usuário e otimização para conversões. Utilizamos técnicas avançadas de desenvolvimento front-end para criar uma landing page que não apenas impressiona visualmente, mas também entrega resultados mensuráveis.',
       category: 'Landing Page',
       timeline: '1 mês',
       team: '2 desenvolvedores',
-      status: 'Concluído',
+      status: 'Domínio em Negociação',
       features: [
         'Design responsivo e moderno',
         'Animações fluidas e elegantes',
@@ -75,7 +75,7 @@ const Projects = () => {
         >
           <h2 className="section-title gradient-text">Projetos em Destaque</h2>
           <p className="section-subtitle">
-            Conheça alguns dos projetos que desenvolvi, aplicando conhecimentos técnicos 
+            Conheça alguns dos projetos que desenvolvemos, aplicando conhecimentos técnicos 
             para criar soluções digitais impactantes.
           </p>
         </motion.div>
