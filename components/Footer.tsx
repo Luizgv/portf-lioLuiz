@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Mail, Heart } from 'lucide-react'
+import { Github, Linkedin, Mail, Heart, Instagram } from 'lucide-react'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -10,19 +10,25 @@ const Footer = () => {
     {
       name: 'GitHub',
       icon: Github,
-      href: 'https://github.com/luizgustavo',
+      href: 'https://github.com/Luizgv',
       color: 'hover:text-gray-900 dark:hover:text-white'
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: 'https://linkedin.com/in/luizgustavo',
+      href: 'https://www.linkedin.com/in/luiz-gustavoo/',
       color: 'hover:text-blue-600'
+    },
+    {
+      name: 'Instagram',
+      icon: Instagram,
+      href: 'https://www.instagram.com/luiz__g17/profilecard/?igsh=ZTZ6cTBrN2plNW9x',
+      color: 'hover:text-pink-500'
     },
     {
       name: 'Email',
       icon: Mail,
-      href: 'mailto:luiz@exemplo.com',
+      href: 'mailto:gustavo.nscto@gmail.com',
       color: 'hover:text-red-500'
     }
   ]
@@ -43,7 +49,7 @@ const Footer = () => {
           <div className="space-y-3 lg:space-y-4">
             <h4 className="font-semibold text-gray-900 dark:text-white text-sm lg:text-base">Links Rápidos</h4>
             <nav className="space-y-1 lg:space-y-2">
-              {['Home', 'Sobre', 'Projetos', 'Artigos', 'Contato'].map((item) => (
+              {['Home', 'Sobre', 'Projetos', 'Contato'].map((item) => (
                 <motion.a
                   key={item}
                   href={`#${item.toLowerCase()}`}

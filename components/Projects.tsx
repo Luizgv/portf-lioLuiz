@@ -52,7 +52,7 @@ const Projects = () => {
       ],
       media: {
         type: 'gif',
-        content: '/oLima.gif'
+        content: '/oLima (1).gif'
       },
       links: {
         live: 'https://olima.com.br',

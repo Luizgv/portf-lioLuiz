@@ -32,7 +32,7 @@ const About = () => {
       icon: BookOpen,
       title: 'Formação Acadêmica',
       description: 'Estudante do último semestre em Tecnologia em Análise e Desenvolvimento de Sistemas pelo Senac.',
-      period: '2022 - 2024'
+      period: '2022 - 2025'
     },
     {
       icon: Code,
