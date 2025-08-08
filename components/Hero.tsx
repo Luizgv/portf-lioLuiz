@@ -137,13 +137,13 @@ const Hero = () => {
               whileHover={{ scale: 1.05 }}
               className="relative"
             >
-              <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 relative">
+              <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 relative bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden shadow-2xl">
                 <Image
                   src="/Perfil.jpg"
                   alt="Luiz Gustavo"
                   width={400}
                   height={400}
-                  className="w-full h-full object-cover rounded-2xl shadow-2xl"
+                  className="w-full h-full object-contain"
                   priority
                 />
                 

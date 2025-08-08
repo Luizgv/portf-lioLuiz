@@ -49,7 +49,7 @@ const Footer = () => {
           <div className="space-y-3 lg:space-y-4">
             <h4 className="font-semibold text-gray-900 dark:text-white text-sm lg:text-base">Links Rápidos</h4>
             <nav className="space-y-1 lg:space-y-2">
-              {['Home', 'Sobre', 'Projetos', 'Contato'].map((item) => (
+              {['Home', 'Projetos', 'Sobre', 'Contato'].map((item) => (
                 <motion.a
                   key={item}
                   href={`#${item.toLowerCase()}`}

@@ -114,12 +114,12 @@ const Projects = () => {
           className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start"
         >
           {/* Project Media */}
-          <div className="order-2 lg:order-1">
+          <div className="order-1 lg:order-1">
             <motion.div
               whileHover={{ scale: 1.02 }}
               className="relative group"
             >
-              <div className="relative rounded-xl overflow-hidden min-h-[250px] lg:min-h-[400px] flex items-center justify-center">
+              <div className="relative rounded-xl overflow-hidden min-h-[300px] sm:min-h-[350px] lg:min-h-[400px] flex items-center justify-center">
                 {selectedProject.media.type === 'gif' ? (
                   <img 
                     src={selectedProject.media.content}
@@ -170,7 +170,7 @@ const Projects = () => {
           </div>
 
           {/* Project Information */}
-          <div className="order-1 lg:order-2 space-y-4 lg:space-y-6">
+          <div className="order-2 lg:order-2 space-y-4 lg:space-y-6">
             <div>
               <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 mb-3 lg:mb-2">
                 <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white">

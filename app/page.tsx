@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <About />
       <Projects />
+      <About />
       <Contact />
       <WhatsAppFloat />
     </>
