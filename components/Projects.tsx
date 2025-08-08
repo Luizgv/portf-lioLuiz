@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { ExternalLink, Github, Play, Calendar, Users, Code } from 'lucide-react'
+import { ExternalLink, Play, Calendar, Users, Code } from 'lucide-react'
 
 const Projects = () => {
   const projects = [
@@ -164,19 +164,7 @@ const Projects = () => {
                   </motion.a>
                 )}
                 
-                {selectedProject.links.github && (
-                  <motion.a
-                    href={selectedProject.links.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="btn-secondary flex items-center justify-center space-x-2 flex-1 text-sm lg:text-base"
-                  >
-                    <Github size={18} className="lg:w-5 lg:h-5" />
-                    <span>Código</span>
-                  </motion.a>
-                )}
+
               </div>
             </motion.div>
           </div>

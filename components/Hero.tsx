@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ChevronDown, Download, Mail } from 'lucide-react'
+import { ChevronDown, Mail } from 'lucide-react'
 import Image from 'next/image'
 
 const Hero = () => {
@@ -105,17 +105,7 @@ const Hero = () => {
                 <span className="sm:hidden">Entrar em contato</span>
               </motion.a>
               
-              <motion.a
-                href="/cv-luiz-gustavo.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="btn-secondary inline-flex items-center justify-center space-x-2 text-sm lg:text-base"
-              >
-                <Download size={18} className="lg:w-5 lg:h-5" />
-                <span>Download CV</span>
-              </motion.a>
+
             </motion.div>
 
             {/* Stats */}
